@@ -18,24 +18,33 @@ estar parado el contenedor).
 - Screenshots:
 1. Creación contenedor y comprobación de funcionamiento
 <pre>`NGINX`</pre>
+*docker run -d --name servidor_web -p 8181:80 nginx*
 
-![Imagen 1: docker run -d --name servidor_web -p 8181:80 nginx](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/1.InstalacionNginx.png)
+![Imagen 1](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/1.InstalacionNginx.png)
 
-![Imagen 2: Prueba funcionamiento desde aplicación Docker](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/1.1.PruebaFuncionamientoNginx.png)
+*Prueba funcionamiento desde aplicación Docker*
+
+![Imagen 2](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/1.1.PruebaFuncionamientoNginx.png)
 
 2. Acceso con navegador Web
 <pre>`Acceso web`</pre>
 
-![Imagen 3: Navegador Google Chrome](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/2.WebNginx.png)
+*Navegador usado: Google Chrome*
+
+![Imagen 3](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/2.WebNginx.png)
 
 3. Acceso con navegador Web
 <pre>`imagenes locales`</pre>
 
-![Imagen 4: docker images](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/3.ImagenesLocales.png)
+*docker images*
+
+![Imagen 4](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/3.ImagenesLocales.png)
 
 4. Acceso con navegador Web
 <pre>`eliminación de contenedor`</pre>
 
-![Imagen 5: docker rm servidor_web](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/4.EliminacionContenedorNginx.png)
+*docker rm servidor_web*
+
+![Imagen 5](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/4.EliminacionContenedorNginx.png)
 
 __Acceso al script Bash__ [ContNginx.sh](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/ContNginx.sh)
