@@ -47,4 +47,4 @@ estar parado el contenedor).
 
 ![Imagen 5](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/img/4.EliminacionContenedorNginx.png)
 
-__Acceso al script Bash__ [ContNginx.sh](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/ContNginx.sh)
+__Acceso al script Bash con todos los pasos para crear el contenedor__ [ContNginx.sh](https://github.com/josesamuelvargas/BootcampDesafio3_Docker/blob/main/Reto1/ContNginx.sh)
